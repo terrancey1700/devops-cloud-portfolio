@@ -143,6 +143,10 @@ Advancing toward mid-level DevOps and Platform Engineering roles focused on:
 - Cloud-native architecture
 - Observability and reliability engineering
 
+
+## Website
+http://empowered-static-site-1.s3-website.us-east-2.amazonaws.com/index.html
+
 ---
 
 ## GitHub
