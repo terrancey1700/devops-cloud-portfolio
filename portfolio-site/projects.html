@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Projects | Terrance Young</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Terrance Young | DevOps</a>
+
+    <div>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+
+    <h1 class="mb-4">DevOps & Cloud Engineering Projects</h1>
+
+    <!-- Golden Image Factory -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Golden Image Factory (Immutable Infrastructure Pipeline)</h4>
+            <p class="card-text">
+                Designed and automated an immutable image pipeline using Packer, Cloud-Init, 
+                and Ansible to produce versioned Ubuntu AMIs for AWS. 
+                Implemented image hygiene controls, SSH hardening, and scoped IAM credentials 
+                to enforce least privilege and artifact traceability.
+            </p>
+            <p><strong>Technologies:</strong> Packer, Ansible, AWS AMI, Cloud-Init, IAM</p>
+        </div>
+    </div>
+
+    <!-- Containerized Monitoring Stack -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Containerized Observability Stack</h4>
+            <p class="card-text">
+                Built a multi-service monitoring stack using Docker and Docker Compose, 
+                deploying Prometheus, Node Exporter, Grafana, and Alertmanager. 
+                Configured scrape targets, dashboards, and Slack alert routing 
+                for structured service health monitoring.
+            </p>
+            <p><strong>Technologies:</strong> Docker, Docker Compose, Prometheus, Grafana, Alertmanager</p>
+        </div>
+    </div>
+
+    <!-- Terraform Infrastructure -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Infrastructure as Code with Terraform</h4>
+            <p class="card-text">
+                Provisioned AWS infrastructure using Terraform, including VPC components, 
+                compute resources, and modular configurations. 
+                Explored state management, variables, outputs, and reusable module design 
+                for multi-environment deployments.
+            </p>
+            <p><strong>Technologies:</strong> Terraform, AWS EC2, VPC, State Backends</p>
+        </div>
+    </div>
+
+    <!-- Serverless Application -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Serverless Application (AWS Lambda)</h4>
+            <p class="card-text">
+                Developed a serverless web endpoint using AWS Lambda capable of serving 
+                both HTML and JSON responses. Implemented path-based routing 
+                and structured logging through CloudWatch for observability.
+            </p>
+            <p><strong>Technologies:</strong> AWS Lambda, Function URLs, CloudWatch Logs</p>
+        </div>
+    </div>
+
+    <!-- RDS Deployment -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Secure Database Deployment (Amazon RDS)</h4>
+            <p class="card-text">
+                Deployed and secured a PostgreSQL RDS instance within a VPC. 
+                Configured security groups, controlled public access, 
+                enforced SSL connectivity, and practiced full lifecycle teardown 
+                to prevent unnecessary cost exposure.
+            </p>
+            <p><strong>Technologies:</strong> Amazon RDS, PostgreSQL, VPC Security Groups, SSL</p>
+        </div>
+    </div>
+
+    <!-- Static Site -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Static Portfolio Deployment (Amazon S3)</h4>
+            <p class="card-text">
+                Deployed a multi-page DevOps portfolio site using S3 static hosting. 
+                Configured bucket policies, public access controls, and validated 
+                proper object-level permissions.
+            </p>
+            <p><strong>Technologies:</strong> Amazon S3, IAM Policies, Static Hosting</p>
+        </div>
+    </div>
+
+</div>
+
+<footer class="text-center mt-5 mb-4">
+    <p>2026 Terrance Young | DevOps & Cloud Engineering</p>
+</footer>
+
+</body>
+</html>
